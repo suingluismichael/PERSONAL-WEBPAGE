@@ -26,5 +26,13 @@
     <div class="nav-buttons">
         <a href="photoGallery.html" class="back-btn">&#8592; Back to Categories</a>
     </div>
+        <script>
+        document.querySelectorAll('.gallery-grid img').forEach(img => {
+            img.onclick = () => {
+                img.classList.toggle('enlarged');
+            }
+        });
+    </script>
 </body>
+
 </html>
