@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galleryDesign.css">
+    <title>Music Jamming</title>
+</head>
+<body>
+
+    <h1>Music Jamming</h1>
+
+    <div class="gallery-grid">
+        <img src="Images/jamming/jammings (1).jpg">
+        <img src="Images/jamming/jammings (2).jpg">
+        <img src="Images/jamming/jammings (3).jpg">
+        <img src="Images/jamming/jammings (4).jpg">
+        <img src="Images/jamming/jammings (5).jpg">
+        <img src="Images/jamming/jammings (1).jfif">
+        <img src="Images/jamming/jammings (2).jfif">
+        <img src="Images/jamming/jammings (3).jfif">
+        <img src="Images/jamming/jammings (4).jfif">
+        <img src="Images/jamming/jammings (5).jfif">
+    </div>
+
+    <a href="photoGallery.html" class="back-btn">&#8592; Back to Categories</a>
+
+    <script>
+        document.querySelectorAll('.gallery-grid img').forEach(img => {
+            img.onclick = () => {
+                img.classList.toggle('enlarged');
+            }
+        });
+    </script>
+</body>
+</html>

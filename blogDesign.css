@@ -1,0 +1,114 @@
+html {
+    background-color: #1a1a1d;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #252529;
+    color: #cbd5e1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    width: 90%;
+    margin: 60px auto;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    border-top: 5px solid #d3dddb;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #b8e0e1;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #3d3d42;
+    line-height: 1.3;
+}
+
+.author {
+    display: block;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 15px;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #fafafa;
+    font-size: 26px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    text-align: justify;
+    color: #d1d5db;
+    text-justify: inter-word;
+}
+
+ul {
+    background-color: #1f1f23;
+    padding: 30px 40px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border-left: 3px solid #64ffda;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #cbd5e1;
+}
+
+.back-btn {
+    display: inline-block;
+    color: #64ffda;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: 1px solid #64ffda;
+    border-radius: 8px;
+}
+
+.back-btn:hover {
+    background-color: #64ffda;
+    color: #1a1a1d;
+}
+
+strong, b {
+    color: #64ffda;
+    font-weight: 700;
+}
+
+em, i {
+    color: #b8e0e1;
+    font-style: italic;
+    font-weight: 500;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    opacity: 0.9;
+    transition: transform 0.3s ease;
+}

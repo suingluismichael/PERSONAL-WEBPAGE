@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galleryDesign.css">
+    <title>Family Collection</title>
+</head>
+<body>
+
+    <h1>Family Moments</h1>
+    <div class="gallery-grid">
+        <img src="Images/family/family.jfif" alt="Family Photo">
+        <img src="Images/family/family (1).jfif" alt="Family Photo">
+        <img src="Images/family/family (2).jfif" alt="Family Photo">
+        <img src="Images/family/family (3).jfif" alt="Family Photo">
+        <img src="Images/family/family (4).jfif" alt="Family Photo">
+        <img src="Images/family/family (5).jfif" alt="Family Photo">
+        <img src="Images/family/family (6).jfif" alt="Family Photo">
+        <img src="Images/family/family (7).jfif" alt="Family Photo">
+        <img src="Images/family/family (8).jfif" alt="Family Photo">
+        <img src="Images/family/family (9).jfif" alt="Family Photo">
+    </div>
+
+    <a href="photoGallery.html" class="back-btn">&#8592; Back to Categories</a>
+
+    <script>
+        document.querySelectorAll('.gallery-grid img').forEach(img => {
+            img.onclick = () => {
+                img.classList.toggle('enlarged');
+            }
+        });
+    </script>
+</body>
+</html>
