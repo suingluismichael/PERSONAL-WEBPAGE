@@ -375,4 +375,7 @@ sub {
     transition: all 0.2s ease-in-out;
     transform: translate(10px, 10px);
     z-index: 1000;
+    white-space: nowrap;
+    max-width: 250px;
 }
+
